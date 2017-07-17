@@ -24,7 +24,7 @@ Copyright (C) 2017 Solution Libre SAS. Code released under the [GPL-3.0](https:/
 
 This website is an open project and community contributions are essential for keeping it great.
 
-[Fork this script on GitHub](https://github.com/solution-libre/website/fork)
+[Fork this website on GitHub](https://github.com/solution-libre/website/fork)
 
 ## Contributors
 
