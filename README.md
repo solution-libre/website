@@ -1,4 +1,4 @@
-# WebSite
+# Solution Libre website
 
 #### Table of Contents
 
@@ -8,7 +8,7 @@
 
 ## Overview
 
-The Solution Libre's WebSite is based on [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/).
+The Solution Libre's website is based on [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/).
 
 ## Copyright and License
 
@@ -16,7 +16,7 @@ The Solution Libre's WebSite is based on [Start Bootstrap](http://startbootstrap
 
 Copyright (C) 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
 
-### Solution Libre's WebSite
+### Solution Libre's website
 
 Copyright (C) 2017 Solution Libre SAS. Code released under the [GPL-3.0](https://raw.githubusercontent.com/solution-libre/website/master/LICENSE) license.
 
