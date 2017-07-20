@@ -245,6 +245,11 @@
                                 <p>Le directeur de la publication est : Florent Poinsaut (<a href="mailto:florent@solution-libre.fr">florent@solution-libre.fr</a>)</p>
                                 <h3>Hébergement</h3>
                                 <p>Ce site est hébergé par <a href="http://www.gandi.net/" target="_blank">GANDI SAS</a>, Société par Actions Simplifiée au capital de 800.000€ ayant son siège social au 63-65 boulevard Massena à Paris (75013) FRANCE, immatriculée sous le numéro 423 093 459 RCS PARIS.</p>
+                                <h3>Politique de confidentialité</h3>
+                                <p>Les adresses électroniques et informations recueillies sur ce site dans le cadre des formulaires de contact ne sont utilisées que pour l’envoi d’informations ayant motivé l’inscription.</p>
+                                <p>Conformément à la loi « Informatiques et Libertés » du 6 janvier 1978, pour les données nominatives, un droit d’accès, de rectification et d’opposition est accordé à l’utilisateur et ce conformément à la loi. Pour l’exercer, vous pouvez adresser un courrier électronique à Solution Libre SAS en utilisant le formulaire de contact ou par courrier postal.</p>
+                                <p>L'audience de ce site est suivi grâce à <a href="https://piwik.org/" target="_blank">Piwik</a>.</p>
+                                <iframe style="border: 0; width: 100%;" src="https://piwik.web4me.fr/index.php?module=CoreAdminHome&action=optOut&language=fr"></iframe>
                                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
                             </div>
                         </div>
@@ -269,5 +274,39 @@
 
         <!-- Theme JavaScript -->
         <script src="startbootstrap-freelancer/js/freelancer.min.js"></script>
+
+        <!-- Piwik -->
+        <script type="text/javascript">
+          var _paq = _paq || [];
+
+          _paq.push([function() {
+            var self = this;
+            function getOriginalVisitorCookieTimeout() {
+              var now = new Date(),
+              nowTs = Math.round(now.getTime() / 1000),
+              visitorInfo = self.getVisitorInfo();
+              var createTs = parseInt(visitorInfo[2]);
+              var cookieTimeout = 33696000; // 13 mois en secondes
+              var originalTimeout = createTs + cookieTimeout - nowTs;
+              return originalTimeout;
+            }
+            this.setVisitorCookieTimeout( getOriginalVisitorCookieTimeout() );
+          }]);
+
+          /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+          _paq.push(["setDoNotTrack", true]);
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u="//piwik.web4me.fr/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '9']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <noscript><p><img src="//piwik.web4me.fr/piwik.php?idsite=9&rec=1" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+
     </body>
 </html>
