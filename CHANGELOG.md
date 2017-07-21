@@ -1,3 +1,10 @@
+## 2017-07-21 - Release 0.2.1
+### Summary
+This release fixes typos of "Entreprise du Numérique Libre".
+
+#### Bugfixes
+- Fixed ENL typo
+
 ## 2017-07-20 - Release 0.2.0
 ### Summary
 This release adds Piwik and social networks links.
