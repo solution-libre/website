@@ -1,3 +1,12 @@
+## 2017-07-21 - Release 0.2.2
+### Summary
+This release fixes some common performance optimizations.
+
+#### Bugfixes
+- Leverage browser caching
+- Optimized images
+- Sitemaps
+
 ## 2017-07-21 - Release 0.2.1
 ### Summary
 This release fixes typos of "Entreprise du Numérique Libre".
