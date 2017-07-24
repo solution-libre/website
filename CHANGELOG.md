@@ -1,3 +1,10 @@
+## 2017-07-24 - Release 0.2.3
+### Summary
+This release fixes company description.
+
+#### Bugfixes
+- Fixed descriptions
+
 ## 2017-07-21 - Release 0.2.2
 ### Summary
 This release fixes some common performance optimizations.
