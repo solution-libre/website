@@ -1,3 +1,14 @@
+## 2017-09-22 - Release 0.3.0
+### Summary
+This release adds some legal mentions and our first project
+
+#### Features
+- Added legal numbers
+- Added first project
+
+#### Bugfixes
+- Fixed G+ URL
+
 ## 2017-07-24 - Release 0.2.3
 ### Summary
 This release fixes company description.
