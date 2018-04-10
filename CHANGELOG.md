@@ -1,3 +1,12 @@
+## 2018-04-10 - Release 0.4.1
+### Summary
+This release fixes some issues.
+
+#### Bugfixes
+- New QTG logo
+- OptiPNG for favicon and Logo
+- Change Copyright to Copyleft
+
 ## 2017-11-17 - Release 0.4.0
 ### Summary
 This release adds two projects
@@ -5,7 +14,6 @@ This release adds two projects
 #### Features
 - Added QTG project
 - Added Les Autres project
-
 
 ## 2017-09-22 - Release 0.3.0
 ### Summary
