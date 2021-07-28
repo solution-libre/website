@@ -18,7 +18,7 @@ Copyright (C) 2013-2016 Blackrock Digital LLC. Code released under the [MIT](htt
 
 ### Solution Libre's website
 
-Copyright (C) 2017 Solution Libre SAS. Code released under the [GPL-3.0](https://raw.githubusercontent.com/solution-libre/website/master/LICENSE) license.
+Copyright (C) 2017-2021 Solution Libre SAS. Code released under the [GPL-3.0](https://raw.githubusercontent.com/solution-libre/website/master/LICENSE) license.
 
 ## Development
 
