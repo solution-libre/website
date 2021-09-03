@@ -28,4 +28,4 @@ This website is an open project and community contributions are essential for ke
 
 ## Contributors
 
-The list of contributors can be found at: https://github.com/solution-libre/website/graphs/contributors
+The list of contributors can be found at: <https://github.com/solution-libre/website/graphs/contributors>
