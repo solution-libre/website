@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "0.5.0",
+  "description": "Solution Libre's website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solution-libre/website.git"
+  },
+  "author": "Florent Poinsaut <florent@solution-libre.fr>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/solution-libre/website/issues"
+  },
+  "homepage": "https://github.com/solution-libre/website#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "startbootstrap-freelancer": "^4.1.1"
+  }
+}

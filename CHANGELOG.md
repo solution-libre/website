@@ -1,3 +1,7 @@
+## 2021-09-03 - Release 0.5.0
+### Summary
+This release upgrades startbootstrap-freelancer to 4.4.1, uses composer and npm and send mail via Symfony Mailer.
+
 ## 2021-07-28 - Release 0.4.3
 ### Summary
 This release fixes address with new one, again.
