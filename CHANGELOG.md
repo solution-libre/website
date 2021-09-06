@@ -1,5 +1,11 @@
 # Changelog
 
+## 2021-09-06 - Release 0.5.1
+
+### Summary
+
+This release fixes Matomo script and redirect non-subdomain to www subdomain.
+
 ## 2021-09-03 - Release 0.5.0
 
 ### Summary
