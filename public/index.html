@@ -349,7 +349,7 @@
               <p class="mb-5">Les adresses électroniques et informations recueillies sur ce site dans le cadre des formulaires de contact ne sont utilisées que pour l’envoi d’informations ayant motivé l’inscription.</p>
               <p class="mb-5">Conformément à la loi « Informatiques et Libertés » du 6 janvier 1978, pour les données nominatives, un droit d’accès, de rectification et d’opposition est accordé à l’utilisateur et ce conformément à la loi. Pour l’exercer, vous pouvez adresser un courrier électronique à Solution Libre SAS en utilisant le formulaire de contact ou par courrier postal.</p>
               <p class="mb-5">L'audience de ce site est suivi grâce à <a href="https://matomo.org/" target="_blank">Matomo</a>.</p>
-              <iframe style="border: 0; width: 100%;" src="https://piwik.web4me.fr/index.php?module=CoreAdminHome&action=optOut&language=fr"></iframe>
+              <iframe style="border: 0; width: 100%;" src="https://matomo.solution-libre.fr/index.php?module=CoreAdminHome&action=optOut&language=fr"></iframe>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Refermer ce projet</a>
@@ -374,6 +374,21 @@
     <!-- Custom scripts for this template -->
     <script src="startbootstrap-freelancer/js/freelancer.min.js"></script>
 
+    <!-- Matomo -->
+    <script type="text/javascript">
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://matomo.solution-libre.fr/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '9']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="https://matomo.solution-libre.fr/matomo.php?idsite=9&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code -->
   </body>
-
 </html>
