@@ -1,0 +1,44 @@
+#!/usr/bin/env sh
+
+cd "$(dirname "$0")/.." || exit 1
+
+compile_font() {
+  font_name=$1
+  font_styles=$2
+  css_filename="public/css/font/${font_name}.css"
+
+  css_files=''
+  for font_style in ${font_styles}; do
+    css_files="${css_files} ${font_style}.css"
+    filename="${font_name}-all-${font_style}"
+    $(echo "${font_style}" | grep - > /dev/null) || filename="${filename}-normal"
+    filename="${filename}.woff"
+    cp "node_modules/@fontsource/${font_name}/files/${filename}" public/css/font/files
+  done
+  {
+    cd "node_modules/@fontsource/${font_name}/"
+    cat ${css_files}
+    cd -
+  } > "${css_filename}"
+
+  for fontFile in $(cat "${css_filename}" | grep url | awk -F "'" '{print $2}'); do
+    cp "node_modules/@fontsource/${font_name}/${fontFile}" public/css/font/files
+  done
+}
+
+if [ ! -d './vendor' -o ! -d './node_modules' ]; then
+  ./bin/install
+fi
+
+./bin/clean
+
+cp -r src public
+gzip -c public/sitemap.xml > public/sitemap.xml.gz
+cp -pr ./node_modules/startbootstrap-freelancer/ public/
+
+mkdir -p public/css/font/files
+
+compile_font 'montserrat' '100 400 600'
+
+compile_font 'lato' '300 400 700 300-italic 400-italic 700-italic'
+

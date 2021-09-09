@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "Solution Libre's website",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +15,10 @@
     "url": "https://github.com/solution-libre/website/issues"
   },
   "homepage": "https://github.com/solution-libre/website#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
+    "@fontsource/lato": "^4.5.0",
+    "@fontsource/montserrat": "^4.5.1",
     "startbootstrap-freelancer": "^4.1.1"
-  }
+  },
+  "devDependencies": {}
 }

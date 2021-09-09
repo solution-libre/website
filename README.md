@@ -3,12 +3,19 @@
 #### Table of Contents
 
 1. [Overview](#overview)
-2. [Copyright and License](#copyright-and-license)
-3. [Contributors](#contributors)
+2. [Setup](#setup)
+3. [Copyright and License](#copyright-and-license)
+4. [Contributors](#contributors)
 
 ## Overview
 
 The Solution Libre's website is based on [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/).
+
+## Setup
+
+```sh
+./bin/build
+```
 
 ## Copyright and License
 

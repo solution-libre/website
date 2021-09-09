@@ -1,5 +1,11 @@
 # Changelog
 
+## 2021-09-09 - Release 0.6.0
+
+### Summary
+
+This release removes Google Font and add install, build and clean scripts.
+
 ## 2021-09-06 - Release 0.5.1
 
 ### Summary
