@@ -1,5 +1,11 @@
 # Changelog
 
+## 2021-11-16 - Release 0.6.1
+
+### Summary
+
+This release removes trailing spaces and fixes about part.
+
 ## 2021-09-09 - Release 0.6.0
 
 ### Summary
