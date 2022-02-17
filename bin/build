@@ -11,22 +11,23 @@ compile_font() {
   for font_style in ${font_styles}; do
     css_files="${css_files} ${font_style}.css"
     filename="${font_name}-all-${font_style}"
-    $(echo "${font_style}" | grep - > /dev/null) || filename="${filename}-normal"
+    echo "${font_style}" | grep - > /dev/null || filename="${filename}-normal"
     filename="${filename}.woff"
     cp "node_modules/@fontsource/${font_name}/files/${filename}" public/css/font/files
   done
   {
-    cd "node_modules/@fontsource/${font_name}/"
+    cd "node_modules/@fontsource/${font_name}/" || exit
+    # shellcheck disable=SC2086
     cat ${css_files}
-    cd -
+    cd - > /dev/null || exit
   } > "${css_filename}"
 
-  for fontFile in $(cat "${css_filename}" | grep url | awk -F "'" '{print $2}'); do
+  grep url "${css_filename}" | awk -F "'" '{print $2}' | while IFS= read -r fontFile; do
     cp "node_modules/@fontsource/${font_name}/${fontFile}" public/css/font/files
   done
 }
 
-if [ ! -d './vendor' -o ! -d './node_modules' ]; then
+if [ ! -d './vendor' ] || [ ! -d './node_modules' ]; then
   ./bin/install
 fi
 
