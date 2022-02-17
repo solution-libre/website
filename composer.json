@@ -1,6 +1,6 @@
 {
     "name": "solution-libre/website",
-    "version": "0.6.0",
+    "version": "0.6.2",
     "description": "Solution Libre's website",
     "type": "project",
     "require": {

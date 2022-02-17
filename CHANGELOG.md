@@ -2,6 +2,12 @@
 
 <!-- markdownlint-configure-file { "MD024": { "allow_different_nesting": true } } -->
 
+## 2022-02-17 - Release 0.6.2
+
+### Summary
+
+This release fixes a typo and improves the CI.
+
 ## 2021-11-16 - Release 0.6.1
 
 ### Summary
