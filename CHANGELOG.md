@@ -24,7 +24,8 @@ This release fixes Matomo script and redirect non-subdomain to www subdomain.
 
 ### Summary
 
-This release upgrades startbootstrap-freelancer to 4.4.1, uses composer and npm, set the new hoster and send mail via Symfony Mailer.
+This release upgrades startbootstrap-freelancer to 4.4.1, uses composer and npm, set the new hoster and send mail via
+Symfony Mailer.
 
 ### Features
 

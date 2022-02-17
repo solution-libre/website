@@ -1,5 +1,6 @@
 # Solution Libre website
 
+<!-- markdownlint-disable-next-line MD001 -->
 #### Table of Contents
 
 1. [Overview](#overview)
@@ -9,7 +10,8 @@
 
 ## Overview
 
-The Solution Libre's website is based on [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/).
+The Solution Libre's website is based on [Start Bootstrap](http://startbootstrap.com/) -
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/).
 
 ## Setup
 
@@ -21,11 +23,13 @@ The Solution Libre's website is based on [Start Bootstrap](http://startbootstrap
 
 ### [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
-Copyright (C) 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Copyright (C) 2013-2016 Blackrock Digital LLC. Code released under the
+[MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
 
 ### Solution Libre's website
 
-Copyright (C) 2017-2021 Solution Libre SAS. Code released under the [AGPL-3.0](https://raw.githubusercontent.com/solution-libre/website/master/LICENSE) license.
+Copyright (C) 2017-2021 Solution Libre SAS. Code released under the
+[AGPL-3.0](https://raw.githubusercontent.com/solution-libre/website/master/LICENSE) license.
 
 ## Development
 
