@@ -3,10 +3,12 @@ name: CI
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  check-readme-syntax:
+  check-markdown-syntax:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Lint Markdown
-      uses: actionshub/markdownlint@1.2.0
+      uses: articulate/actions-markdownlint@v1
+      with:
+        files: '**/*.md'
