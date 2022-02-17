@@ -3,7 +3,7 @@ name: CI
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  check-markdown-syntax:
+  lint:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
@@ -12,3 +12,7 @@ jobs:
       uses: articulate/actions-markdownlint@v1
       with:
         files: '**/*.md'
+    - name: Run ShellCheck
+      uses: azohra/shell-linter@latest
+      with:
+        path: "bin/"
