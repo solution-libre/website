@@ -66,6 +66,8 @@ for (const [key, input] of Object.entries(inputs)) {
 }
 
 form.addEventListener('submit', function (event) {
+    event.preventDefault();
+
     const formValues = {
         name: form.elements.name.value,
         email: form.elements.email.value,
@@ -74,16 +76,14 @@ form.addEventListener('submit', function (event) {
 
     const errors = validate(formValues, constraints);
 
-    if (errors) {
-        event.preventDefault();
-    } else {
+    if (!errors) {
         var httpRequest;
         var urlEncodedData = "";
         var urlEncodedDataPairs = [];
         for (const [key, value] of Object.entries(formValues)) {
             urlEncodedDataPairs.push(encodeURIComponent(key) + '=' + encodeURIComponent(value));
         }
-        urlEncodedDataPairs.push('phone=' + '=' + encodeURIComponent(form.elements.phone.value));
+        urlEncodedDataPairs.push('phone' + '=' + encodeURIComponent(form.elements.phone.value));
 
         urlEncodedData = urlEncodedDataPairs.join('&').replace(/%20/g, '+');
 
