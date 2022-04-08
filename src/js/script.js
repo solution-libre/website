@@ -78,10 +78,14 @@ form.addEventListener('submit', function (event) {
         event.preventDefault();
     } else {
         var httpRequest;
-        let data = 'phone=' + form.elements.phone.value;
+        var urlEncodedData = "";
+        var urlEncodedDataPairs = [];
         for (const [key, value] of Object.entries(formValues)) {
-            data += '&' + key + '=' + value;
+            urlEncodedDataPairs.push(encodeURIComponent(key) + '=' + encodeURIComponent(value));
         }
+        urlEncodedDataPairs.push('phone=' + '=' + encodeURIComponent(form.elements.phone.value));
+
+        urlEncodedData = urlEncodedDataPairs.join('&').replace(/%20/g, '+');
 
         httpRequest = new XMLHttpRequest();
     
@@ -91,7 +95,8 @@ form.addEventListener('submit', function (event) {
         }
         httpRequest.onreadystatechange = alertContents;
         httpRequest.open('POST', './mail/contact_me.php');
-        httpRequest.send(data);
+        httpRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        httpRequest.send(urlEncodedData);
     }
     
     function alertContents() {
