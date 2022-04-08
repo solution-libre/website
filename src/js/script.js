@@ -78,12 +78,9 @@ form.addEventListener('submit', function (event) {
         event.preventDefault();
     } else {
         var httpRequest;
-        let data = '';
+        let data = 'phone=' + form.elements.phone.value;
         for (const [key, value] of Object.entries(formValues)) {
-            if (Object.keys(formValues)[0] !== key) {
-                data +=  '&'
-            }
-            data += key + '=' + value;
+            data += '&' + key + '=' + value;
         }
 
         httpRequest = new XMLHttpRequest();
