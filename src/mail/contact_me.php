@@ -37,5 +37,3 @@ $email = (new \Symfony\Component\Mime\Email())
     ->text("You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message");
 
 $mailer->send($email);
-
-

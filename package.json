@@ -18,7 +18,7 @@
   "dependencies": {
     "@fontsource/lato": "^4.5.0",
     "@fontsource/montserrat": "^4.5.1",
-    "startbootstrap-freelancer": "^4.1.1"
-  },
-  "devDependencies": {}
+    "startbootstrap-freelancer": "^7.0.6",
+    "validate.js": "^0.13.1"
+  }
 }

@@ -1,0 +1,17 @@
+.font-weight-light {
+    font-weight: 400;
+}
+
+.lead {
+    font-weight: 400;
+}
+
+.div-link {
+    color: #1abc9c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.div-link:hover {
+    color: #15967d;
+}
