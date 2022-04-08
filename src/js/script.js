@@ -50,13 +50,13 @@ const inputs = {
 for (const [key, input] of Object.entries(inputs)) {
     input.addEventListener('focusout', function (event) {
         document.getElementById('invalid-' + key + '-feedback').style.display = 'none';
-    
-        let inputValue = {  };
-        inputValue[key] =input.value
-        let inputConstraints = {  };
+
+        let inputValue = {};
+        inputValue[key] = input.value
+        let inputConstraints = {};
         inputConstraints[key] = constraints[key];
         const errors = validate(inputValue, inputConstraints);
-    
+
         if (errors) {
             for (const field of Object.keys(errors)) {
                 document.getElementById('invalid-' + key + '-feedback').style.display = 'block';
@@ -88,7 +88,7 @@ form.addEventListener('submit', function (event) {
         urlEncodedData = urlEncodedDataPairs.join('&').replace(/%20/g, '+');
 
         httpRequest = new XMLHttpRequest();
-    
+
         if (!httpRequest) {
             alert('Abandon :( Impossible de créer une instance de XMLHTTP');
             return false;
@@ -98,13 +98,13 @@ form.addEventListener('submit', function (event) {
         httpRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         httpRequest.send(urlEncodedData);
     }
-    
+
     function alertContents() {
         if (httpRequest.readyState === XMLHttpRequest.DONE) {
             if (httpRequest.status === 200) {
-                alert(httpRequest.responseText);
+                document.getElementById('submitSuccessMessage').setAttribute('style', 'display: block !important;');
             } else {
-                alert('Il y a eu un problème avec la requête.');
+                document.getElementById('submitErrorMessage').setAttribute('style', 'display: block !important;');
             }
         }
 
