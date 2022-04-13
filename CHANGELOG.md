@@ -2,6 +2,12 @@
 
 <!-- markdownlint-configure-file { "MD024": { "allow_different_nesting": true } } -->
 
+## 2022-04-13 - Release 1.0.0
+
+### Summary
+
+This release upgrades startbootstrap-freelancer to v7, updates the projects protfolio and some texts.
+
 ## 2022-02-17 - Release 0.6.2
 
 ### Summary
