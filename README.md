@@ -28,7 +28,7 @@ Copyright (C) 2013-2016 Blackrock Digital LLC. Code released under the
 
 ### Solution Libre's website
 
-Copyright (C) 2017-2021 Solution Libre SAS. Code released under the
+Copyright (C) 2017-2022 Solution Libre SAS. Code released under the
 [AGPL-3.0](https://raw.githubusercontent.com/solution-libre/website/master/LICENSE) license.
 
 ## Development
