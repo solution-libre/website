@@ -2,6 +2,12 @@
 
 <!-- markdownlint-configure-file { "MD024": { "allow_different_nesting": true } } -->
 
+## 2023-09-26 - Release 1.0.1
+
+### Summary
+
+This version updates the hosting company.
+
 ## 2022-04-13 - Release 1.0.0
 
 ### Summary
