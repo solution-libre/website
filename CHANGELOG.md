@@ -2,6 +2,12 @@
 
 <!-- markdownlint-configure-file { "MD024": { "allow_different_nesting": true } } -->
 
+## 2023-11-26 - Release 1.1.0
+
+### Summary
+
+This version updates the company's head office.
+
 ## 2023-09-26 - Release 1.0.1
 
 ### Summary

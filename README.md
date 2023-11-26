@@ -6,12 +6,14 @@
 1. [Overview](#overview)
 2. [Setup](#setup)
 3. [Copyright and License](#copyright-and-license)
-4. [Contributors](#contributors)
+   1. [Start Bootstrap - Freelancer](#start-bootstrap---freelancer)
+   2. [Solution Libre's website](#solution-libres-website)
+4. [Development](#development)
+5. [Contributors](#contributors)
 
 ## Overview
 
-The Solution Libre's website is based on [Start Bootstrap](http://startbootstrap.com/) -
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/).
+The Solution Libre's website is based on [Start Bootstrap](https://startbootstrap.com/) - [Freelancer](https://startbootstrap.com/theme/freelancer/).
 
 ## Setup
 
@@ -21,14 +23,14 @@ The Solution Libre's website is based on [Start Bootstrap](http://startbootstrap
 
 ## Copyright and License
 
-### [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
+### [Start Bootstrap](https://startbootstrap.com/) - [Freelancer](https://startbootstrap.com/theme/freelancer/)
 
-Copyright (C) 2013-2016 Blackrock Digital LLC. Code released under the
+Copyright (C) 2013-2023 Blackrock Digital LLC. Code released under the
 [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
 
 ### Solution Libre's website
 
-Copyright (C) 2017-2022 Solution Libre SAS. Code released under the
+Copyright (C) 2017-2023 Solution Libre SAS. Code released under the
 [AGPL-3.0](https://raw.githubusercontent.com/solution-libre/website/master/LICENSE) license.
 
 ## Development

@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Solution Libre's website",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

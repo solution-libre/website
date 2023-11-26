@@ -2,14 +2,15 @@
 
 cd "$(dirname "$0")/.." || exit 1
 
-if command -v docker-compose > /dev/null; then
+if command -v docker compose > /dev/null; then
   composer_cmd="./bin/composer"
   npm_cmd="./bin/npm"
 elif command -v composer > /dev/null && command -v npm > /dev/null; then
   composer_cmd='composer'
   npm_cmd='npm'
 else
-  echo 'docker-compose is require'
+  echo >&2 'docker compose is require'
+  exit 2
 fi
 
 ${composer_cmd} install
