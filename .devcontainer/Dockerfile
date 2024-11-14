@@ -8,3 +8,8 @@ RUN a2enmod rewrite headers
 
 COPY apache2/conf-available/security.conf /etc/apache2/conf-available/security.conf
 COPY apache2/sites-available/000-default.conf /etc/apache2/sites-available/000-default.conf
+
+RUN useradd -ms /bin/bash vscode
+USER vscode
+RUN sed -i -e 's/\\\$ /$(__git_ps1 " (%s)")\\\$ /' ~/.bashrc
+WORKDIR /var/www/html

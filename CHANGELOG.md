@@ -1,6 +1,6 @@
 # Changelog
 
-<!-- markdownlint-configure-file { "MD024": { "allow_different_nesting": true } } -->
+<!-- markdownlint-configure-file { "MD024": { "siblings_only": true } } -->
 
 ## 2023-11-26 - Release 1.1.0
 

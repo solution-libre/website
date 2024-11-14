@@ -1,0 +1,13 @@
+{
+	"recommendations": [
+		"gitlab.gitlab-workflow",
+		"ymotongpoo.licenser",
+		"davidanson.vscode-markdownlint",
+		"redhat.vscode-yaml",
+		"ecmel.vscode-html-css",
+		"ms-azuretools.vscode-docker",
+	],
+	"unwantedRecommendations": [
+		
+	]
+}
