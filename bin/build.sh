@@ -58,4 +58,3 @@ mkdir -p public/css/font/files
 compile_font 'montserrat' '100 400 600'
 
 compile_font 'lato' '300 400 700 300-italic 400-italic 700-italic'
-

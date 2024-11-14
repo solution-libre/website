@@ -35,7 +35,9 @@
 				"davidanson.vscode-markdownlint",
 				"redhat.vscode-yaml",
 				"ecmel.vscode-html-css",
-				"ms-azuretools.vscode-docker"
+				"ms-azuretools.vscode-docker",
+				"streetsidesoftware.code-spell-checker",
+				"streetsidesoftware.code-spell-checker-french"
 			]
 		}
 	},
