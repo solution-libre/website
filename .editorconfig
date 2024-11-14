@@ -3,7 +3,7 @@
 # top-most EditorConfig file
 root = true
 
-[*.sh,bin/**]
+[*.sh]
 indent_style = space
 indent_size = 2
 shell_variant = posix

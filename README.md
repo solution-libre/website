@@ -19,7 +19,7 @@ on [Start Bootstrap](https://startbootstrap.com/) - [Freelancer](https://startbo
 ## Setup
 
 ```sh
-./bin/build
+./bin/build.sh
 ```
 
 ## Copyright and License
