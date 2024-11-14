@@ -2,6 +2,12 @@
 
 <!-- markdownlint-configure-file { "MD024": { "siblings_only": true } } -->
 
+## [v1.2.0] 2024-08-26
+
+### Added
+
+- Add Mastodon link
+
 ## 2023-11-26 - Release 1.1.0
 
 ### Summary

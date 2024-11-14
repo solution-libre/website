@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solution-libre/website.git"
+    "url": "git+https://usine.solution-libre.fr/solution-libre/website.git"
   },
   "author": "Florent Poinsaut <florent@solution-libre.fr>",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/solution-libre/website/issues"
+    "url": "https://usine.solution-libre.fr/solution-libre/website/-/issues"
   },
-  "homepage": "https://github.com/solution-libre/website#readme",
+  "homepage": "https://usine.solution-libre.fr/solution-libre/website",
   "dependencies": {
     "@fontsource/lato": "^4.5.0",
     "@fontsource/montserrat": "^4.5.1",
