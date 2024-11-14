@@ -17,3 +17,5 @@
 
 include:
   - component: usine.solution-libre.fr/gitlab/components/lint/markdown@0.5.0
+  - component: usine.solution-libre.fr/gitlab/components/lint/shell@0.5.0
+  - component: usine.solution-libre.fr/gitlab/components/release/default@0.1.1
