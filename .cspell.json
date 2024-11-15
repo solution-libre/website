@@ -1,5 +1,6 @@
 {
     "words": [
+        "autoloader",
         "azuretools",
         "Boostrap",
         "CEMES",
@@ -10,12 +11,18 @@
         "devcontainers",
         "ecmel",
         "florent",
+        "fontawesome",
+        "fontsource",
+        "fortawesome",
         "gitlab",
         "Ikoula",
+        "lato",
         "matomo",
+        "montserrat",
         "openssh",
         "Poinsaut",
         "redhat",
+        "startbootstrap",
         "ymotongpoo"
     ]
 }

@@ -49,9 +49,9 @@ fi
 
 cp -r src public
 gzip -c public/sitemap.xml > public/sitemap.xml.gz
-cp -pr ./node_modules/startbootstrap-freelancer/dist public/startbootstrap-freelancer
-cp ./node_modules/validate.js/validate.min.js ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js public/js/
-cp ./node_modules/@fortawesome/fontawesome-free/js/all.min.js public/js/fontawesome-all.min.js
+cp -pr node_modules/startbootstrap-freelancer/dist public/startbootstrap-freelancer
+cp node_modules/just-validate/dist/just-validate.production.min.js node_modules/bootstrap/dist/js/bootstrap.bundle.min.js public/js/
+cp node_modules/@fortawesome/fontawesome-free/js/all.min.js public/js/fontawesome-all.min.js
 
 mkdir -p public/css/font/files
 
