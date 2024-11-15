@@ -2,6 +2,15 @@
 
 <!-- markdownlint-configure-file { "MD024": { "siblings_only": true } } -->
 
+## [v1.3.0] 2024-11-15
+
+### Changed
+
+- Update dependencies
+- Replace validator.js by just-validate
+- Improve php responses
+- Replace Twitter by Bluesky
+
 ## [v1.2.0] 2024-08-26
 
 ### Added
@@ -165,3 +174,6 @@ This is the initial release
 - About
 - Legal Notice
 - Contact
+
+[v1.3.0]: https://usine.solution-libre.fr/solution-libre/website/-/compare/v1.2.0...v1.3.0
+[v1.2.0]: https://usine.solution-libre.fr/solution-libre/website/-/compare/v1.1.0...v1.2.0
